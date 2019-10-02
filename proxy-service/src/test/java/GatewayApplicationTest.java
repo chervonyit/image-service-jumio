@@ -44,16 +44,16 @@ public class GatewayApplicationTest {
     @Test
     public void imageBase64Test() {
         Image image = new Image();
-        image.setImage("qwe");
+        image.setImage("test");
         Image resp = rest.postForObject("/api/image-base64", image, Image.class);
-        assertThat(resp.getImage()).isEqualTo("cXdl");
+        assertThat(resp.getImage()).isEqualTo("dGVzdA==");
     }
 
     @Test
     public void imageTest() {
         Image image = new Image();
-        image.setImage("qwe");
+        image.setImage("test");
         Image resp = rest.postForObject("/api/image", image, Image.class);
-        assertThat(resp.getImage()).isEqualTo("qwe");
+        assertThat(resp.getImage()).isEqualTo("test");
     }
 }
