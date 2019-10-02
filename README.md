@@ -1,5 +1,11 @@
 # image-service-jumio
 
+#### Versions:
+- java-1.8.0_25
+- apache-maven-3.6.0
+- OS name: "windows 10", version: "10.0", arch: "amd64", family: "windows"
+- IDE - Intellj IDEA 2019
+
 #### [ImageService](https://github.com/chervonyit/image-service-jumio/tree/master/image-service "Heading Link")
 ImageService is used to return base64 or simple image name from json files stored by ProxyService. It has two api methods: 
 `/api/image`
