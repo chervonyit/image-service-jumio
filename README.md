@@ -1,6 +1,6 @@
 # image-service-jumio
 
-#ImageService [Heading link](https://github.com/chervonyit/image-service-jumio/tree/master/image-service "Heading Link")
+#ImageService [Heading link](https://github.com/chervonyit/image-service-jumio/tree/master/image-service "Heading Lin")
 ImageService is used to return base64 or simple image name from json files stored by ProxyService. It has two api methods: 
 `/api/image`
 `/api/image-base64`
