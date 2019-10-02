@@ -18,7 +18,7 @@ ProxyService is used to filter request that contains "image" and convert it to b
 Common module contains useful utils, models
 
 #### [Rest-api-test](https://github.com/chervonyit/image-service-jumio/tree/master/rest-api-test "Heading Link")
-Rest-api-test test could be used as separate project with rest api tests for stagin environment.
+Rest-api-test test could be used as separate project with rest api tests for staging environment.
 
 #### To run tests use this cmd:
 `$ mvn clean test`
